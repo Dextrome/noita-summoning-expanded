@@ -1,2 +1,2 @@
 # noita-summoning-expanded
-Mod for Noita that adds more summoning eggs &amp; spells
+(Steam Workshop) Mod for Noita that adds more summoning eggs &amp; spells
