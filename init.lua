@@ -14,8 +14,8 @@ function OnPlayerSpawned( player_entity )
 
 end
 
-ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/dextrome_summon_spells/data/scripts/summon_frog.lua")
-ModLuaFileAppend( "data/scripts/items/egg_hatch.lua", "mods/dextrome_summon_spells/data/scripts/egg_frog.lua")
+ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/dextrome_summon_spells/data/scripts/summon_egg_frog.lua")
+ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/dextrome_summon_spells/data/scripts/summon_egg_elemental.lua")
 
 print("mod initialization done")
 
