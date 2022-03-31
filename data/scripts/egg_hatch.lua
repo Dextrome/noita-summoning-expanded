@@ -18,26 +18,36 @@ end
 local entity_lists = 
 {
 -- monsters = { {"zombie"}, {"zombie", 2}, {"bigzombie"}, {"skullrat"} },
-monsters = { {"zombie"}, {"zombie", 2} },
+monsters = { {"zombie"}, {"zombie"}, {"zombie"}, {"zombie", 2}, {"zombie", 2}, {"zombie", 2}, {"zombie", 2}, {"zombie", 2}, {"zombie", 2}, {"zombie", 3} },
 -- slimes = { {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic", 2}, {"acidshooter"}, {"lasershooter"} },
-slimes = { {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic", 2} },
-fire = { {"firebug", 3}, {"bigfirebug"} },
-red = { {"bat", 3}, {"tentacler_small"}, {"tentacler"} },
-chilly = { {"tentacler_small"}, {"tentacler"} },
-purple = { {"longleg", 3}, {"longleg", 4}, {"longleg", 5} },
-worms = { {"worm_tiny"}, {"worm"}, {"worm_big"} },
-frogs = { {"frog"}, {"frog", 2}, {"frog_big"} },
+slimes = { {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic", 2}, {"slimeshooter_nontoxic", 2}, {"slimeshooter_nontoxic", 2}, {"acidshooter"} },
+fire = { {"firebug"}, {"firebug"}, {"firebug", 2}, {"firebug", 2}, {"firebug", 2}, {"firebug", 3}, {"firebug", 3}, {"firebug", 3}, {"firebug", 3}, {"bigfirebug"} },
+red = { {"bat"}, {"bat", 2}, {"bat", 2}, {"bat", 2}, {"bat", 2}, {"bat", 3}, {"bat", 4}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler"} },
+chilly = { {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler"}, {"tentacler"}, {"tentacler"} },
+purple = { {"longleg", 2}, {"longleg", 2}, {"longleg", 3}, {"longleg", 3}, {"longleg", 3}, {"longleg", 3}, {"longleg", 3}, {"longleg", 4},{"longleg", 5}, {"longleg", 6} },
+worms = { {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm"}, {"worm"}, {"worm"}, {"worm_big"}, {"worm_big"} },
+frogs = { {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog", 2}, {"frog", 2}, {"frog_big"} },
+tappura = { {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner"}, {"miner"}, {"miner_fire"}, {"miner_chef"} },
 }
 
 SetRandomSeed( x - 437, y + 235 )
 
 local options = entity_lists[entity_list_name]
-local opts = #options
+--local opts = #options
+
 local rnd = 1
 
-for i=1,opts do
-	rnd = math.min(rnd + math.min(math.max(Random(1, 8) - 7, 0), 1), opts)
+--math.randomseed(os.time())
+--math.random(); math.random(); math.random()
+
+for i=1,6 do
+    rnd = Random(1,10)
+	--print(rnd)
 end
+--for i=1,opts do
+--	rnd = math.min(rnd + math.min(math.max(Random(1, 8) - 7, 0), 1), opts)
+--end
+
 
 local entity_to_spawn = options[rnd][1] or "zombie"
 local entity_count = options[rnd][2] or 1
