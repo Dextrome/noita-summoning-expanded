@@ -97,7 +97,7 @@
     _enabled="0"
     offset_x="4"
     offset_y="4"
-    image_file="data/items_gfx/egg_slime.png"
+    image_file="data/items_gfx/egg_purple.png"
   ></SpriteComponent>
 
   <ItemComponent
@@ -106,14 +106,14 @@
     max_child_items="0"
     is_pickable="1"
     is_equipable_forced="1"
-    ui_sprite="data/ui_gfx/items/egg_slime.png"
+    ui_sprite="data/ui_gfx/items/egg_purple.png"
     ui_description="The egg seems very elemental"
     preferred_inventory="QUICK"
   ></ItemComponent>
 
   <UIInfoComponent
     _tags="enabled_in_world"
-    name="ELEMENTAL EGG" >
+    name="Elemental Egg" >
   </UIInfoComponent>
   
   <AbilityComponent

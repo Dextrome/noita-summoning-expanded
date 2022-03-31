@@ -1,7 +1,7 @@
 table.insert( actions,
 {
-	id          = "SUMMONEGGFROG",
-	name 		= "SUMMON FROG EGG",
+	id          = "SUMMON_EGG_FROG",
+	name 		= "Summon Froggy Egg",
 	description = "Summons an egg that houses a frog",
 	sprite 		= "data/ui_gfx/gun_actions/summon_egg.png",
 	sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",

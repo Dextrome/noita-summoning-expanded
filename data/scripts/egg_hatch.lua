@@ -17,9 +17,7 @@ end
 
 local entity_lists = 
 {
--- monsters = { {"zombie"}, {"zombie", 2}, {"bigzombie"}, {"skullrat"} },
 monsters = { {"zombie"}, {"zombie"}, {"zombie"}, {"zombie", 2}, {"zombie", 2}, {"zombie", 2}, {"zombie", 2}, {"zombie", 2}, {"zombie", 2}, {"zombie", 3} },
--- slimes = { {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic", 2}, {"acidshooter"}, {"lasershooter"} },
 slimes = { {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic", 2}, {"slimeshooter_nontoxic", 2}, {"slimeshooter_nontoxic", 2}, {"acidshooter"} },
 fire = { {"firebug"}, {"firebug"}, {"firebug", 2}, {"firebug", 2}, {"firebug", 2}, {"firebug", 3}, {"firebug", 3}, {"firebug", 3}, {"firebug", 3}, {"bigfirebug"} },
 red = { {"bat"}, {"bat", 2}, {"bat", 2}, {"bat", 2}, {"bat", 2}, {"bat", 3}, {"bat", 4}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler"} },
@@ -28,6 +26,7 @@ purple = { {"longleg", 2}, {"longleg", 2}, {"longleg", 3}, {"longleg", 3}, {"lon
 worms = { {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm"}, {"worm"}, {"worm"}, {"worm_big"}, {"worm_big"} },
 frogs = { {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog", 2}, {"frog", 2}, {"frog_big"} },
 tappura = { {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner"}, {"miner"}, {"miner_fire"}, {"miner_chef"} },
+support = { {"coward"}, {"scavenger_shield"}, {"scavenger_invis"}, {"scavenger_heal"}, {"scavenger_heal"}, {"scavenger_heal"}, {"scavenger_invis"}, {"scavenger_shield"}, {"coward"}, {"healerdrone_physics"} },
 }
 
 SetRandomSeed( x - 437, y + 235 )

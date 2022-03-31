@@ -67,7 +67,7 @@
       explosion_radius="3" 
       explosion_sprite="" 
       explosion_sprite_lifetime="10"
-	  load_this_entity="mods/dextrome_summon_spells/data/entities/projectiles/egg_frog.xml"
+	  load_this_entity="mods/dextrome_summon_spells/data/entities/projectiles/egg_support.xml"
       hole_destroy_liquid="0" 
       hole_enabled="0" 
       ray_energy="100000"
@@ -97,27 +97,27 @@
     _enabled="0"
     offset_x="4"
     offset_y="4"
-    image_file="data/items_gfx/egg_slime.png"
+    image_file="data/items_gfx/egg.png"
   ></SpriteComponent>
 
   <ItemComponent
     _tags="enabled_in_world"
-    item_name="FROGGY EGG"
+    item_name="SUPPORT EGG"
     max_child_items="0"
     is_pickable="1"
     is_equipable_forced="1"
-    ui_sprite="data/ui_gfx/items/egg_slime.png"
-    ui_description="The egg feels very moist"
+    ui_sprite="data/ui_gfx/items/egg.png"
+    ui_description="The egg feels very supportive"
     preferred_inventory="QUICK"
   ></ItemComponent>
 
   <UIInfoComponent
     _tags="enabled_in_world"
-    name="Froggy Egg" >
+    name="Support Egg" >
   </UIInfoComponent>
   
   <AbilityComponent
-		ui_name="Froggy Egg"
+		ui_name="Support Egg"
 		throw_as_item="1"
 		><gun_config
 			deck_capacity="0"
