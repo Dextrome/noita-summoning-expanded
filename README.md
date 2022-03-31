@@ -1,6 +1,6 @@
 # Noita Summoning Expanded
 (Steam Workshop) Mod for Noita that adds new monsters and summoning eggs/spells
-* To use this mod you can subscribe to it in the steam workshop or download these files and place them in your Noita mods folder under ...\steamapps\common\Noita\mods\dextrome_summon_spells
+* To use this mod you can subscribe to it in the steam workshop or download these files and place them in this folder: [...\steamapps\common\Noita\mods\dextrome_summon_spells]
 
 
 
