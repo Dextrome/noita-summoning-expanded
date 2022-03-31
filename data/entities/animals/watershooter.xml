@@ -5,10 +5,10 @@
 		
 		<AnimalAIComponent
 			attack_ranged_entity_file="mods/dextrome_summon_spells/data/entities/projectiles/watershot.xml"
-			attack_ranged_state_duration_frames="70"
+			attack_ranged_state_duration_frames="69"
 			attack_ranged_enabled="1"
 			attack_dash_enabled="0"
-			attack_ranged_frames_between="40" 
+			attack_ranged_frames_between="30" 
 			attack_ranged_offset_y="0.1"
 			needs_food="0"
 			can_fly="1" >
@@ -21,12 +21,12 @@
 
 		<PathFindingComponent
 			can_fly="1" 
-			can_walk="0"
+			can_walk="1"
 			>
 		</PathFindingComponent>
 
 		<SpriteComponent 
-			image_file="data/enemies_gfx/acidshooter_Weak.xml" 
+			image_file="mods/dextrome_summon_spells/data/enemies_gfx/waterelemental.xml" 
 			offset_x="0"
 			alpha="0.5"
 			offset_y="0">
@@ -78,7 +78,7 @@
 	</AudioLoopComponent>
 	
 	<LifetimeComponent
-		lifetime="600"
+		lifetime="900"
 		>
 	</LifetimeComponent>
 	
