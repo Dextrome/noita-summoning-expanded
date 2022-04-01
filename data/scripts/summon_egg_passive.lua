@@ -7,11 +7,11 @@ table.insert( actions,
 	sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 	related_projectiles	= {"data/entities/items/pickup/egg_monster.xml"},
 	type 		= ACTION_TYPE_PROJECTILE,
-	spawn_level                       = "0,1,2,3,4,5,6", -- SUMMON_EGG
-	spawn_probability                 = "1.0,1.0,0.9,0.9,0.8,0.8,0.8", -- SUMMON_EGG
-	price = 250,
-	mana = 100, 
-	max_uses    = 2, 
+	spawn_level                       = "0,1,2,3", -- SUMMON_EGG
+	spawn_probability                 = "1.0,1.0,0.9,0.9", -- SUMMON_EGG
+	price = 50,
+	mana = 50, 
+	max_uses    = 10, 
 	action 		= function()
 		--SetRandomSeed( GameGetFrameNum(), GameGetFrameNum() )
 		--local types = {"monster","slime","red","fire"}
