@@ -42,6 +42,7 @@ To use this mod you can subscribe to it in the steam workshop or download the fi
 * Summon Tappura Egg:
     - max_uses                          = 2
     - mana_drain                        = 125
+    - recharge_time                     = 0.5s
     - spawn_level                       = "0,1,2,3,4,5,6"
 	- spawn_probability                 = "1.0,1.0,0.9,0.9,0.8,0.8,0.8"
 * Summon Support Egg:
@@ -53,7 +54,6 @@ To use this mod you can subscribe to it in the steam workshop or download the fi
 * Summon Passive Egg:
     - max_uses                          = 10
     - mana_drain                        = 50
-    - recharge_time                     = 0.5s
     - spawn_level                       = "0,1,2,3"
 	- spawn_probability                 = "1.0,1.0,0.9,0.9"
     
