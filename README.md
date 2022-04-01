@@ -8,7 +8,7 @@ To use this mod you can subscribe to it in the steam workshop or download the fi
 ![workshop_preview_image](https://github.com/Dextrome/noita-summoning-expanded/blob/main/workshop_preview_image.png)
 ^ Mob images taken from https://noita.fandom.com/wiki/Enemies
 
-<h3>Hatch Chance:</h3>
+<h3>Eggs & Enemy Spawn Chance:</h3>
 
 * Froggy Egg:
     - Frog = 90%
