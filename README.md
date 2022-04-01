@@ -33,6 +33,7 @@ To use this mod you can subscribe to it in the steam workshop or download the fi
     - Elk = 10%
 
 <h3> Spells: </h3>
+
 * Summon Froggy Egg:
     - max_uses                          = 2
     - mana_drain                        = 100
