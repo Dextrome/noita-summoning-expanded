@@ -27,26 +27,19 @@ worms = { {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm_tin
 frogs = { {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog", 2}, {"frog", 2}, {"frog_big"} },
 tappura = { {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner"}, {"miner"}, {"miner_fire"}, {"miner_chef"} },
 support = { {"coward"}, {"scavenger_shield"}, {"scavenger_invis"}, {"scavenger_heal"}, {"scavenger_heal"}, {"scavenger_heal"}, {"scavenger_invis"}, {"scavenger_shield"}, {"coward"}, {"healerdrone_physics"} },
+passive = { {"duck"}, {"deer"}, {"elk"}, {"sheep_bat"}, {"sheep_fly"}, {"sheep"}, {"duck"}, {"sheep"}, {"duck"}, {"deer"} },
 }
 
-SetRandomSeed( x - 437, y + 235 )
-
 local options = entity_lists[entity_list_name]
---local opts = #options
-
 local rnd = 1
 
---math.randomseed(os.time())
---math.random(); math.random(); math.random()
+SetRandomSeed( x - 469, y + 269 )
 
-for i=1,6 do
-    rnd = Random(1,10)
-	--print(rnd)
+for i=1,3 do
+    rnd = Random(1,999999)
 end
---for i=1,opts do
---	rnd = math.min(rnd + math.min(math.max(Random(1, 8) - 7, 0), 1), opts)
---end
 
+rnd = Random(1,10)
 
 local entity_to_spawn = options[rnd][1] or "zombie"
 local entity_count = options[rnd][2] or 1
