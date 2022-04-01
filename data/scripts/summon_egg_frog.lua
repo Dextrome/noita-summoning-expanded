@@ -9,7 +9,7 @@ table.insert( actions,
 	type 		= ACTION_TYPE_PROJECTILE,
 	spawn_level                       = "0,1,2,3,4,5,6", -- SUMMON_EGG
 	spawn_probability                 = "1.0,1.0,0.9,0.9,0.8,0.8,0.8", -- SUMMON_EGG
-	price = 220,
+	price = 250,
 	mana = 100, 
 	max_uses    = 2, 
 	action 		= function()
