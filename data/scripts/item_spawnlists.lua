@@ -209,6 +209,8 @@ function spawn_from_list( listname, x, y )
 	local rndmax = spawnlist.rnd_max or 100
 	
 	local rnd = Random( rndmin, rndmax )
+
+	print("spawnlist: "  .. tostring( listname ) .. " rnd: " .. tostring(rnd))
 	
 	if ( spawnlist.spawns ~= nil ) then
 		for i,data in ipairs( spawnlist.spawns ) do
