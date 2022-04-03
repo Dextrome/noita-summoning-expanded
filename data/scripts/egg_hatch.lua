@@ -22,7 +22,7 @@ slimes = { {"slimeshooter_nontoxic"}, {"slimeshooter_nontoxic"}, {"slimeshooter_
 fire = { {"firebug"}, {"firebug"}, {"firebug", 2}, {"firebug", 2}, {"firebug", 2}, {"firebug", 3}, {"firebug", 3}, {"firebug", 3}, {"firebug", 3}, {"bigfirebug"} },
 red = { {"bat"}, {"bat", 2}, {"bat", 2}, {"bat", 2}, {"bat", 2}, {"bat", 3}, {"bat", 4}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler"} },
 chilly = { {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler_small"}, {"tentacler"}, {"tentacler"}, {"tentacler"} },
-purple = { {"longleg", 2}, {"longleg", 2}, {"longleg", 3}, {"longleg", 3}, {"longleg", 3}, {"longleg", 3}, {"longleg", 3}, {"longleg", 4},{"longleg", 5}, {"longleg", 6} },
+purple = { {"longleg", 2}, {"longleg", 2}, {"longleg", 3}, {"longleg", 3}, {"longleg", 3}, {"longleg", 3}, {"longleg", 4}, {"longleg", 4},{"longleg", 5}, {"longleg", 6} },
 worms = { {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm_tiny"}, {"worm"}, {"worm"}, {"worm"}, {"worm_big"}, {"worm_big"} },
 frogs = { {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog", 2}, {"frog", 2}, {"frog_big"} },
 tappura = { {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner"}, {"miner"}, {"miner_fire"}, {"miner_chef"} },
@@ -43,13 +43,13 @@ rnd = Random(1,10)
 
 local entity_to_spawn = options[rnd][1] or "zombie"
 local entity_count = options[rnd][2] or 1
-
 local option = "data/entities/animals/" .. entity_to_spawn .. ".xml"
-
 GamePlaySound( "data/audio/Desktop/projectiles.bank", "player_projectiles/egg/hatch", x, y )
 
 for j=1,entity_count do
-	local eid = EntityLoad( option, x, y )
+	local rndxoffset = 0
+	if (entity_count > 1) then rndxoffset = Random(-1,1) end
+	local eid = EntityLoad( option, x + rndxoffset, y )
 	
 	local herd_id
 	local players = EntityGetWithTag( "player_unit" )
