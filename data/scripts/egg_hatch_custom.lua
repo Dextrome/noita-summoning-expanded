@@ -17,7 +17,8 @@ end
 
 local entity_lists = 
 {
-elemental = { {"watershooter"}, {"watershooter", 2} },
+--elemental = { {"watershooter"}, {"watershooter", 2} },
+elemental = { {"waterskull"} },
 }
 
 SetRandomSeed( x - 437, y + 235 )
