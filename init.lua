@@ -21,6 +21,7 @@ ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/dextrome_summon_spel
 ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/dextrome_summon_spells/data/scripts/summon_egg_support.lua")
 ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/dextrome_summon_spells/data/scripts/summon_egg_passive.lua")
 ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/dextrome_summon_spells/data/scripts/summon_egg_purple.lua")
+ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/dextrome_summon_spells/data/scripts/summon_egg_skull.lua")
 
 print("mod initialization done")
 
