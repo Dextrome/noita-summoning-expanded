@@ -17,20 +17,20 @@ end
 
 local entity_lists = 
 {
---elemental = { {"watershooter"}, {"watershooter", 2} },
-elemental = { {"waterskull"} },
+elemental = { {"watershooter"}, {"watershooter", 2} },
+skull = { {"waterskull"} },
 }
 
-SetRandomSeed( x - 437, y + 235 )
-
+SetRandomSeed( x - 437, y + 235 
 local options = entity_lists[entity_list_name]
 local opts = #options
 local rnd = 1
 
-for i=1,opts do
-	rnd = math.min(rnd + math.min(math.max(Random(1, 8) - 7, 0), 1), opts)
+for i=1,3 do
+    rnd = Random(1,999999)
 end
 
+rnd = Random(1,opts)
 local entity_to_spawn = options[rnd][1] or "watershooter"
 local entity_count = options[rnd][2] or 1
 

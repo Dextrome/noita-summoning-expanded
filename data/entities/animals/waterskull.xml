@@ -73,16 +73,16 @@
 
 	<LightComponent 
 	    _enabled="1" 
-	    radius="50" 
-		r="155"
-		g="155"
-		b="255">
+	    radius="69" 
+		r="150"
+		g="160"
+		b="250">
   </LightComponent>
 	
 	<ParticleEmitterComponent 
     emitted_material_name="water"
     count_min="1"
-    count_max="9"
+    count_max="6"
     offset.x="0"
     offset.y="1"
     x_pos_offset_min="-6"
@@ -94,7 +94,7 @@
     y_vel_min="-10"
     y_vel_max="10"
     count_min="1"
-    count_max="3"
+    count_max="2"
     lifetime_min="0.1"
     lifetime_max="0.6"
     create_real_particles="1"
