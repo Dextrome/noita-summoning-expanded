@@ -28,7 +28,7 @@
   
   <VariableStorageComponent
     name="entity_list"
-    value_string="passive"
+    value_string="bigslime"
   />
   
   <LuaComponent

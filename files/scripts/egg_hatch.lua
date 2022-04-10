@@ -28,6 +28,7 @@ frogs = { {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, {"frog"}, 
 tappura = { {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner_weak"}, {"miner"}, {"miner"}, {"miner_fire"}, {"miner_chef"} },
 support = { {"coward"}, {"scavenger_shield"}, {"scavenger_invis"}, {"scavenger_heal"}, {"scavenger_heal"}, {"scavenger_heal"}, {"scavenger_invis"}, {"scavenger_shield"}, {"coward"}, {"healerdrone_physics"} },
 passive = { {"duck"}, {"deer"}, {"elk"}, {"sheep_bat"}, {"sheep_fly"}, {"sheep"}, {"duck"}, {"sheep"}, {"duck"}, {"deer"} },
+bigslime = { {"slimeshooter_weak"}, {"slimeshooter_weak", 2}, {"slimeshooter_weak"}, {"slimeshooter"}, {"slimeshooter"}, {"acidshooter_weak"}, {"acidshooter_weak"}, {"acidshooter"}, {"giantshooter_weak"}, {"giantshooter"} },
 }
 
 local options = entity_lists[entity_list_name]

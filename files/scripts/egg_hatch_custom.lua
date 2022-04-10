@@ -18,10 +18,11 @@ end
 local entity_lists = 
 {
 elemental = { {"watershooter"}, {"watershooter", 2} },
-skull = { {"waterskull"} },
+skull = { {"waterskull"}, {"fireskull"} },
+hamis = { {"hamis", 2}, {"hamis", 2}, {"hamis", 3}, {"hamis", 3}, {"hamis", 3}, {"hamis", 3}, {"hamis", 4}, {"hamis", 4},{"hamis", 5}, {"hamis", 6} },
 }
 
-SetRandomSeed( x - 437, y + 235 
+SetRandomSeed( x - 437, y + 235)
 local options = entity_lists[entity_list_name]
 local opts = #options
 local rnd = 1
@@ -34,7 +35,7 @@ rnd = Random(1,opts)
 local entity_to_spawn = options[rnd][1] or "watershooter"
 local entity_count = options[rnd][2] or 1
 
-local option = "mods/dextrome_summon_spells/data/entities/animals/" .. entity_to_spawn .. ".xml"
+local option = "mods/dextrome_summon_spells/files/animals/" .. entity_to_spawn .. ".xml"
 
 GamePlaySound( "data/audio/Desktop/projectiles.bank", "player_projectiles/egg/hatch", x, y )
 

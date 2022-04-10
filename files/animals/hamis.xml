@@ -1,0 +1,9 @@
+<Entity name="$animal_longleg" tags="hamis">
+  
+  <Base file="data/entities/animals/longleg.xml" >
+    <CameraBoundComponent
+      max_count="69"
+    ></CameraBoundComponent>
+  </Base>
+    
+</Entity>

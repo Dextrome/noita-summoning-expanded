@@ -28,13 +28,13 @@
   
   <VariableStorageComponent
     name="entity_list"
-    value_string="purple"
+    value_string="hamis"
   />
   
   <LuaComponent
 		execute_every_n_frame="-1"
 		execute_on_removed="1"
-		script_source_file="mods/dextrome_summon_spells/data/scripts/egg_hatch.lua"
+		script_source_file="mods/dextrome_summon_spells/files/scripts/egg_hatch_custom.lua"
 		>
 	</LuaComponent>
 
