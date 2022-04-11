@@ -50,11 +50,17 @@ end
 register_item("potion_spawnlist", 1, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_support.xml", -2)
 register_item("potion_spawnlist", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_frog.xml", -2)
 register_item("potion_spawnlist", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_tappura.xml", -2)
-register_item("potion_spawnlist", 3, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_passive.xml", -2)
+register_item("potion_spawnlist", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_passive.xml", -2)
+register_item("potion_spawnlist", 4, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_hamis.xml", -2)
+register_item("potion_spawnlist", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_bigslime.xml", -2)
+register_item("potion_spawnlist", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_skull.xml", -2)
 register_item("potion_spawnlist_liquidcave", 1, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_support.xml", -2)
 register_item("potion_spawnlist_liquidcave", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_frog.xml", -2)
 register_item("potion_spawnlist_liquidcave", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_tappura.xml", -2)
 register_item("potion_spawnlist_liquidcave", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_passive.xml", -2)
+register_item("potion_spawnlist_liquidcave", 4, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_hamis.xml", -2)
+register_item("potion_spawnlist_liquidcave", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_bigslime.xml", -2)
+register_item("potion_spawnlist_liquidcave", 2, "mods/dextrome_summon_spells/data/entities/items/pickup/egg_skull.xml", -2)
 --change_existing_item("potion_spawnlist_liquidcave", "data/entities/items/pickup/brimstone.xml", "mods/nukes_more_stones/files/nuke/entities/stone_fire.xml")
 
 
