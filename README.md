@@ -1,6 +1,8 @@
 # Noita Summoning Expanded
 (Steam Workshop) Mod for Noita that adds new monsters and summoning eggs/spells
+
 Each spell can be enabled or disabled in the mod settings. But the eggs will always be added to the item spawn list
+
 This mod also tweaks the charm effect gfx to be a little less overwhelming by slightly decreasing the size & lifetime
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2787390620
