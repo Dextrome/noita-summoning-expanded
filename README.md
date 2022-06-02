@@ -40,34 +40,12 @@ To use this mod you can subscribe to it in the steam workshop or download the fi
     - 4x Hamis = 20%
     - 5x Hamis = 10%
     - 6x Hamis = 10%
-
-<h3> Spells: </h3>
-
-* Summon Froggy Egg:
-    - max_uses                          = 2
-    - mana_drain                        = 100
-    - spawn_level                       = "0,1,2,3,4,5"
-    - spawn_probability                 = "0.9,1.0,1.0,0.9,0.8,0.7"
-* Summon Tappura Egg:
-    - max_uses                          = 2
-    - mana_drain                        = 125
-    - recharge_time                     = 0.5s
-    - spawn_level                       = "0,1,2,3,4,5,6"
-    - spawn_probability                 = "1.0,1.0,0.9,0.9,0.8,0.8,0.8"
-* Summon Support Egg:
-    - max_uses                          = 1
-    - mana_drain                        = 150
-    - recharge_time                     = 1.5s
-    - spawn_level                       = "0,1,2,3,4,5,6"
-    - spawn_probability                 = "0.6,0.9,1.0,1.0,1.0,1.0,1.0"
-* Summon Passive Egg:
-    - max_uses                          = 10
-    - mana_drain                        = 50
-    - spawn_level                       = "0,1,2,3"
-    - spawn_probability                 = "1.0,1.0,0.9,0.9"
-* Summon Hämis Egg:
-    - max_uses 				= 20
-    - mana_drain 			= 69
-    - spawn_level 			= '0,1,2,3,4,5,6'
-    - spawn_probability 		= '1.1,1.0,1.0,0.9,0.9,0.9,0.9'
+* Big Slime Egg
+    - Weak Toxic Slime = 20%
+    - 2x Weak Toxic Slime = 10%
+    - Toxic Slime = 20%
+    - Weak Acid Slime = 20%
+    - Acid Slime = 10%
+    - Weak Mother Slime = 10%
+    - Mother Slime = 10%
     
